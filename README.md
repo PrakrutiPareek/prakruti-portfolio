@@ -1,12 +1,39 @@
-# React + Vite
+# Prakruti Pareek Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **web development portfolio**! This portfolio showcases my projects built with **HTML, CSS, JavaScript, and React**. It demonstrates my skills in frontend development, project building, and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About Me
 
-## Expanding the ESLint configuration
+I’m **Prakruti Pareek**, a former Science Technician transitioning into tech.  
+I’m passionate about coding, especially **React**, and have built several projects to strengthen my web development skills.  
+I’m open to **junior developer roles, internships, and freelance projects**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Skills
+
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Tools & Platforms:** Git, GitHub, Netlify, VS Code
+- **Other:** Responsive design, basic UI/UX principles
+
+---
+
+## 🏆 Projects
+
+### 1. Tic-Tac-Toe Game
+
+- Built with **HTML, CSS, and JavaScript**
+- Two-player functionality with winner detection
+- Responsive and interactive
+- **Live Demo:** [Play Here](https://tic-tac-toe.netlify.app)
+- ![Tic Tac Toe Screenshot](tic-tac-toe-screenshot.png)
+
+### 2. Portfolio Website
+
+- Built with **React**
+- Showcases my projects and skills
+- Modern responsive design with smooth navigation
+- **Live Demo:** [View Portfolio](https://prakruti-portfolio.netlify.app)
+- ![Portfolio Screenshot](portfolio-screenshot.png)
