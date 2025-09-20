@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/PrakrutiPareek_Logo.png";
+import logo from "./src/assets/PrakrutiPareek_Logo.png";
 
 export default function Layout() {
   return (
