@@ -50,7 +50,7 @@ function Contact() {
 
         {/* Resume Button */}
         <a
-          href="./public/Prakruti_Pareek_Resume.pdf"
+          href="/Prakruti_Pareek_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

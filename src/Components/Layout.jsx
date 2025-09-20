@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from "../assets/PrakrutiPareek_Logo.png";
 
 export default function Layout() {
   return (
@@ -6,7 +7,7 @@ export default function Layout() {
       {/* Logo + Name */}
       <div className="flex flex-col items-center mb-10">
         <img
-          src="./src/assets/PrakrutiPareek_Logo.png"
+          src={logo}
           alt="Prakruti Logo"
           className="w-50 h-50 rounded-full mb-3 shadow-lg"
         />
