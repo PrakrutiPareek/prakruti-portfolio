@@ -27,13 +27,18 @@ I’m open to **junior developer roles, internships, and freelance projects**.
 - Built with **HTML, CSS, and JavaScript**
 - Two-player functionality with winner detection
 - Responsive and interactive
-- **Live Demo:** [Play Here](https://tic-tac-toe.netlify.app)
-- ![Tic Tac Toe Screenshot](tic-tac-toe-screenshot.png)
+- **Live Demo:** [Play Here](https://tic-tac-toe-game-pp.netlify.app/)
+- ![Tic Tac Toe Screenshot](./src/Screenshots/)
 
-### 2. Portfolio Website
+## 📫 Contact Me
 
-- Built with **React**
-- Showcases my projects and skills
-- Modern responsive design with smooth navigation
-- **Live Demo:** [View Portfolio](https://prakruti-portfolio.netlify.app)
-- ![Portfolio Screenshot](portfolio-screenshot.png)
+- **Email:** prakruti.kapadia@gmail.com
+- **GitHub:** [github.com/yourusername](https://github.com/prakrutipareek)
+- **LinkedIn:** [linkedin.com/in/yourusername](https://linkedin.com/in/prakruti-pareek)
+
+---
+
+### ⚡ Notes
+
+- This portfolio is deployed on **Netlify**.
+- Projects are clickable with **live demos** and screenshots for easy viewing.
