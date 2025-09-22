@@ -4,7 +4,7 @@ function Projects() {
   const projects = [
     {
       title: "Tic-Tac-Toe Game",
-      image: "/images/todo.png",
+      image: "/Images/tic-tac-toe_screenshot.png",
       description:
         "Simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript.",
       github: "https://github.com/PrakrutiPareek/tic-tac-toe-game",
@@ -12,7 +12,7 @@ function Projects() {
     },
     {
       title: "FAQ Accordion",
-      image: "/images/weather.png",
+      image: "/Images/faq-accordion_screenshot.png",
       description:
         "An interactive FAQ accordion built with HTML, CSS, and JavaScript. Features smooth expand/collapse transitions.",
       github: "https://github.com/PrakrutiPareek/faq-accordion",
@@ -20,7 +20,7 @@ function Projects() {
     },
     {
       title: "Travel Journal",
-      image: "/images/recipe.png",
+      image: "/Images/travel-journal_screenshot.png",
       description:
         "My first React project. Displays travel destinations in a card layout using props and components.",
       github: "https://github.com/PrakrutiPareek/travel-journal",
@@ -28,7 +28,7 @@ function Projects() {
     },
     {
       title: "Tenzies Game 🎲",
-      image: "/images/portfolio.png",
+      image: "/Images/tenzies_screenshot.png",
       description:
         "A fun dice game built with React. Roll until all dice match, with hold functionality, timer, and roll counter.",
       github: "https://github.com/PrakrutiPareek/tenzies-game",
@@ -36,7 +36,7 @@ function Projects() {
     },
     {
       title: "Assembly: Endgame ⚛️",
-      image: "/images/recipe.png",
+      image: "/Images/assembly_screenshot.png",
       description:
         "A React project demonstrating advanced component design and state management.",
       github: "https://github.com/PrakrutiPareek/assembly-endgame",
@@ -44,7 +44,7 @@ function Projects() {
     },
     {
       title: "Van Life 🚐",
-      image: "/images/portfolio.png",
+      image: "/Images/van-life_screenshot.png",
       description:
         "A React project with React Router, nested routes, and dynamic pages simulating a van rental experience.",
       github: "https://github.com/PrakrutiPareek/Van_Life",
@@ -60,11 +60,13 @@ function Projects() {
             key={index}
             className="p-4 border border-gray-200 rounded-xl shadow hover:shadow-lg transition"
           >
-            {/* <img
-              src={project.image}
-              alt={project.title}
-              className="rounded-xl mb-4"
-            /> */}
+            <div className="flex justify-center h-48 overflow-hidden mb-4">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="rounded-xl mb-4"
+              />
+            </div>
             <h4 className="text-xl font-semibold text-sky-500">
               {project.title}
             </h4>
