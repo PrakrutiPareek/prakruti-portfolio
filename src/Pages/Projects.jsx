@@ -3,52 +3,52 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      title: "tic-tac-toe-game",
+      title: "Tic-Tac-Toe Game",
       image: "/images/todo.png",
       description:
         "Simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript.",
       github: "https://github.com/PrakrutiPareek/tic-tac-toe-game",
-      demo: "https://tic-tac-toe-game-pp.netlify.app/",
+      demo: "https://tic-tac-toe-game-pp.netlify.app",
     },
     {
-      title: "Weather App",
+      title: "FAQ Accordion",
       image: "/images/weather.png",
       description:
-        "Fetches weather data from an API and displays it dynamically.",
-      github: "https://github.com/prakruti/weather-app",
-      demo: "https://prakruti-weather.netlify.app",
+        "An interactive FAQ accordion built with HTML, CSS, and JavaScript. Features smooth expand/collapse transitions.",
+      github: "https://github.com/PrakrutiPareek/faq-accordion",
+      demo: "https://faq-accordion-pp.netlify.app",
     },
     {
-      title: "Recipe Finder",
+      title: "Travel Journal",
       image: "/images/recipe.png",
       description:
-        "Search recipes using API and filter results based on ingredients.",
-      github: "https://github.com/prakruti/recipe-finder",
-      demo: "https://prakruti-recipe.netlify.app",
+        "My first React project. Displays travel destinations in a card layout using props and components.",
+      github: "https://github.com/PrakrutiPareek/travel-journal",
+      demo: "https://travel-journal-pp.netlify.app",
     },
     {
-      title: "Portfolio Website",
+      title: "Tenzies Game 🎲",
       image: "/images/portfolio.png",
       description:
-        "My personal React portfolio showcasing projects and resume.",
-      github: "https://github.com/prakruti/portfolio",
-      demo: "https://prakruti-portfolio.netlify.app",
+        "A fun dice game built with React. Roll until all dice match, with hold functionality, timer, and roll counter.",
+      github: "https://github.com/PrakrutiPareek/tenzies-game",
+      demo: "https://tenzies-pp.netlify.app",
     },
     {
-      title: "Recipe Finder",
+      title: "Assembly: Endgame ⚛️",
       image: "/images/recipe.png",
       description:
-        "Search recipes using API and filter results based on ingredients.",
-      github: "https://github.com/prakruti/recipe-finder",
-      demo: "https://prakruti-recipe.netlify.app",
+        "A React project demonstrating advanced component design and state management.",
+      github: "https://github.com/PrakrutiPareek/assembly-endgame",
+      demo: "https://assembly-endgame-pp.netlify.app",
     },
     {
-      title: "Portfolio Website",
+      title: "Van Life 🚐",
       image: "/images/portfolio.png",
       description:
-        "My personal React portfolio showcasing projects and resume.",
-      github: "https://github.com/prakruti/portfolio",
-      demo: "https://prakruti-portfolio.netlify.app",
+        "A React project with React Router, nested routes, and dynamic pages simulating a van rental experience.",
+      github: "https://github.com/PrakrutiPareek/Van_Life",
+      demo: "https://van-life-pp.netlify.app",
     },
   ];
   return (
