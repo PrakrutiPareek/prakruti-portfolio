@@ -6,13 +6,15 @@ function Home() {
     <section
       className="bg-gradient-to-br from-gray-900 via-gray-800 to-sky-900 
                  min-h-screen flex flex-col justify-center items-center
-                 text-center text-white px-4 ml-64"
+                 text-center text-white px-4 md:ml-64"
     >
-      <h2 className="text-5xl font-bold mb-6 text-sky-400">Hi, I’m Prakruti</h2>
-      <h5 className="text-2xl font-bold mb-6 text-sky-400">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-sky-400">
+        Hi, I’m Prakruti
+      </h2>
+      <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-sky-400">
         Turning Science into Software 🚀
       </h5>
-      <p className="text-xl text-gray-300 mb-8 max-w-3xl">
+      <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
         From Science Technician to Web Developer — my journey in tech begins
         here.
       </p>

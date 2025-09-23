@@ -35,7 +35,7 @@ function Projects() {
       demo: "https://tenzies-pp.netlify.app",
     },
     {
-      title: "Assembly: Endgame ⚛️",
+      title: "Assembly: Endgame",
       image: "/Images/assembly_screenshot.png",
       description:
         "A React project demonstrating advanced component design and state management.",
@@ -52,26 +52,34 @@ function Projects() {
     },
   ];
   return (
-    <section className="bg-gray-50 min-h-screen ml-64 px-8 py-16">
-      <h3 className="text-3xl font-semibold mb-8 text-violet-500">Projects</h3>
+    <section
+      className="bg-gray-50 min-h-screen md:ml-64 px-8 pt-25 pb-20 md:pt-8
+"
+    >
+      <h3 className="text-4xl font-semibold mb-10 text-center text-sky-400">
+        Projects
+      </h3>
+      {/* <h3 className="text-3xl font-semibold mb-8 text-violet-500">Projects</h3> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="p-4 border border-gray-200 rounded-xl shadow hover:shadow-lg transition"
+            className="p-4 border border-gray-200 rounded-xl shadow hover:shadow-lg transition flex flex-col"
           >
             <div className="flex justify-center h-48 overflow-hidden mb-4">
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-xl mb-4"
+                className="rounded-xl object-cover"
               />
             </div>
             <h4 className="text-xl font-semibold text-sky-500">
               {project.title}
             </h4>
-            <p className="text-sm mb-2 text-gray-700">{project.description}</p>
-            <div className="flex gap-4">
+            <p className="text-sm mb-2 text-gray-700 flex-1 mt-2 line-clamp-4">
+              {project.description}
+            </p>
+            <div className="mt-auto flex gap-4 pt-4">
               <a
                 href={project.github}
                 target="_blank"

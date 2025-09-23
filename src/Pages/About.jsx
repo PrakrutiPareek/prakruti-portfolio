@@ -2,9 +2,12 @@ import { motion } from "framer-motion";
 
 export default function Journey() {
   return (
-    <section id="journey" className="bg-gray-800 text-white py-16 px-6 ml-64">
+    <section
+      id="journey"
+      className="bg-gray-50 px-8 pt-25 pb-20 md:pt-8 md:ml-64 min-h-screen"
+    >
       <div className="max-w-4xl mx-auto">
-        <h3 className="text-3xl font-semibold mb-10 text-center text-sky-400">
+        <h3 className="text-4xl font-semibold mb-10 text-center text-sky-400">
           My Learning Journey
         </h3>
 
@@ -25,7 +28,7 @@ export default function Journey() {
             >
               Step 1: Foundations
             </motion.h4>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-700">
               Started with{" "}
               <span className="font-semibold">HTML, CSS, and JavaScript</span>.
               Built beginner projects like{" "}
@@ -51,7 +54,7 @@ export default function Journey() {
             >
               Step 2: React Basics
             </motion.h4>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-700">
               Transitioned into <span className="font-semibold">React</span>.
               Created <span className="italic">Travel Journal</span> — my first
               component-based project, exploring props and reusable components.
@@ -74,7 +77,7 @@ export default function Journey() {
             >
               Step 3: React Advanced
             </motion.h4>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-700">
               Built <span className="italic">Tenzies Game</span>, showcasing
               <span className="font-semibold">
                 {" "}
@@ -100,7 +103,7 @@ export default function Journey() {
             >
               Step 4: React Advanced Project
             </motion.h4>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-700">
               Built <span className="italic">Assembly: Endgame</span>, pushing
               my skills in
               <span className="font-semibold">
@@ -124,9 +127,9 @@ export default function Journey() {
               whileHover={{ scale: 1.1, color: "#38bdf8" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Step 5: React Router & Real-World App
+              Step 5: React Router
             </motion.h4>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-700">
               Created <span className="italic">Van Life</span>, a React app
               using
               <span className="font-semibold">
@@ -135,6 +138,29 @@ export default function Journey() {
               </span>
               . This project simulates a real-world rental app, strengthening my
               skills in routing and UI design.
+            </p>
+          </motion.div>
+          {/* AI Acknowledgement Step */}
+          <motion.div
+            className="ml-6"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 1 }}
+            viewport={{ once: true }}
+          >
+            <div className="absolute w-3 h-3 bg-sky-400 rounded-full mt-2.5 -left-1.5"></div>
+            <motion.h4
+              className="text-xl font-bold text-violet-300"
+              whileHover={{ scale: 1.05, color: "#38bdf8" }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              AI Assistance
+            </motion.h4>
+            <p className="mt-2 text-gray-700 text-sm">
+              Throughout building this portfolio and my projects, I leveraged
+              AI-assisted guidance to structure components, implement responsive
+              design, and optimize project presentation. This helped me learn
+              best practices faster and ensure a clean, professional look.
             </p>
           </motion.div>
         </div>
