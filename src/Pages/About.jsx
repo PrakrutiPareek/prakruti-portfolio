@@ -156,7 +156,7 @@ export default function Journey() {
             >
               AI Assistance
             </motion.h4>
-            <p className="mt-2 text-gray-700 text-sm">
+            <p className="mt-2 text-gray-700">
               Throughout building this portfolio and my projects, I leveraged
               AI-assisted guidance to structure components, implement responsive
               design, and optimize project presentation. This helped me learn
